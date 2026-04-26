@@ -13,8 +13,8 @@
       "license": "Apache-2.0",
       "keywords": ["commcare", "nova", "mcp", "agents", "low-code"],
       "agents": [
-        "agents/nova-architect-autonomous.md",
-        "agents/nova-architect-interactive.md"
+        "./agents/nova-architect-autonomous.md",
+        "./agents/nova-architect-interactive.md"
       ],
       "mcpServers": {
         "nova": {
