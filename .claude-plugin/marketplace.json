@@ -5,8 +5,8 @@
     {
       "name": "nova",
       "source": {
-        "source": "github",
-        "repo": "voidcraft-labs/nova-plugin"
+        "source": "url",
+        "url": "https://github.com/voidcraft-labs/nova-plugin.git"
       },
       "description": "Build, edit, compile, and deploy CommCare apps from Claude Code",
       "homepage": "https://docs.commcare.app/claude-code",
