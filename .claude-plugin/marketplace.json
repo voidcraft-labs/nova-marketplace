@@ -1,0 +1,17 @@
+{
+  "name": "nova-marketplace",
+  "owner": { "name": "voidcraft-labs" },
+  "plugins": [
+    {
+      "name": "nova",
+      "source": {
+        "source": "github",
+        "repo": "voidcraft-labs/nova-plugin"
+      },
+      "description": "Build, edit, compile, and deploy CommCare apps from Claude Code",
+      "homepage": "https://docs.commcare.app/claude-code",
+      "license": "Apache-2.0",
+      "keywords": ["commcare", "nova", "mcp", "agents", "low-code"]
+    }
+  ]
+}
