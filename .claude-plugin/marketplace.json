@@ -1,6 +1,8 @@
 {
   "name": "nova-marketplace",
-  "owner": { "name": "voidcraft-labs" },
+  "owner": {
+    "name": "voidcraft-labs"
+  },
   "plugins": [
     {
       "name": "nova",
@@ -11,15 +13,13 @@
       "description": "Build, edit, compile, and deploy CommCare apps from Claude Code",
       "homepage": "https://docs.commcare.app/claude-code",
       "license": "Apache-2.0",
-      "keywords": ["commcare", "nova", "mcp", "agents", "low-code"],
-      "agents": ["./agents/nova-architect-autonomous.md"],
-      "mcpServers": {
-        "nova": {
-          "type": "http",
-          "url": "https://mcp.commcare.app/mcp",
-          "headersHelper": "if [ -n \"$NOVA_API_KEY\" ]; then printf '{\"Authorization\":\"Bearer %s\"}' \"$NOVA_API_KEY\"; else printf '{}'; fi"
-        }
-      }
+      "keywords": [
+        "commcare",
+        "nova",
+        "mcp",
+        "agents",
+        "low-code"
+      ]
     }
   ]
 }
