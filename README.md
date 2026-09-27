@@ -19,4 +19,4 @@ Refresh the marketplace and plugin, then restart Claude Code:
     /plugin marketplace update nova-marketplace
     /plugin update nova
 
-Version 2 uses OAuth by default. See the [plugin authentication guide](https://github.com/voidcraft-labs/nova-plugin#authentication) for optional API-key setup.
+Version 2 uses OAuth by default. See the [plugin authentication guide](https://github.com/voidcraft-labs/nova-plugin#authenticate) for optional API-key setup.
